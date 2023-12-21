@@ -59,7 +59,7 @@ def func():
     return "Afsar Khan"
 
 
-# It is a retrieval operation by id
+# Creating API for retrieval operation
 @app.route('/ret', methods=['POST'])
 def get_data():
     access = Crud.query.all()
